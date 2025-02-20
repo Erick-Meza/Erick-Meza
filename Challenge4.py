@@ -1,5 +1,6 @@
 import random as random
 import numpy as np
+
 fruit_prices = {
     "apple": round(random.uniform(1.0, 3.0), 2),
     "banana": round(random.uniform(1.0, 3.0), 2),

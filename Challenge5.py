@@ -1,6 +1,8 @@
 import numpy as np
 import random as random
 
+expensive_fruits = {}
+
 fruit_prices = {
     "apple": round(random.uniform(1.0, 3.0), 2),
     "banana": round(random.uniform(1.0, 3.0), 2),
@@ -10,7 +12,6 @@ fruit_prices = {
     "pineapple": round(random.uniform(1.0, 3.0), 2)
 }
 
-expensive_fruits = {}
 
 for x in fruit_prices:
     if fruit_prices[x] > 2.0:

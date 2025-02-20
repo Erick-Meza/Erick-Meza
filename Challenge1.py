@@ -6,4 +6,5 @@ for x in fruits:
   print(x)
 
 print(fruits[0])
+
 print(fruits[4])
